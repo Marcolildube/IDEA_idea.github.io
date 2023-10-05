@@ -1,4 +1,4 @@
-{const ratio = .2
+{const ratio = .15
 const options = {
   root: null,
   rootMargin: "0px",
@@ -23,7 +23,7 @@ observer.observe(r)
 }
 
 
-{const ratio = .2
+{const ratio = .15
 const options = {
   root: null,
   rootMargin: "0px",
