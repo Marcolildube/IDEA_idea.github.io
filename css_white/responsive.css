@@ -835,9 +835,10 @@
     justify-content: center;
         }
 
+       
         .box{
             box-shadow: 0 0 10px rgba(0,0,0,.2);
-            width: 350px;
+            width: 400px;
             height: auto;
             
             
@@ -855,15 +856,15 @@
             height: 135px
 
          }
-          .box1 .legende{
-                left: 148px;
-            top: 380px;
-            width: 148px;
-         }
+       .box1 .legende {
+    left: 204px;
+    top: 325px;
+    width: 148px;
+}
          .box1 .titreimg{
-                left: 108px;
-            width: 113px;
-            top: 330px;
+                  left: 227px;
+                width: 113px;
+                top: 292px;
          }
          .box2{
             
@@ -911,6 +912,10 @@
             left: 210px;
            
 
+        }
+        .legend{
+            position: relative;
+            left: 30px;
         }
         .box5{
             justify-content: center;
@@ -978,7 +983,7 @@
         margin-top: 100px;
     }
     .services_section{
-        margin-top: ;
+        margin-top: 500px;
         position:relative;
         background-color: rd;
         
@@ -1146,9 +1151,10 @@
 
         
         .services_img {
+            padding: 50px;
             margin-top: 40px;
-            height: 160px;
-            width: 90%; 
+            height: 250px;
+            width: 300px; 
             position: relative;
 
              }
@@ -1171,12 +1177,12 @@
 
             }
             .grand_menu p{
-                font-weight: 900;
-        font-size: 12px;
-        width: 252px;
-        /* top: 11px; */
-        border-radius: 14px;
-        /* margin: auto; */
+             font-weight: 900;
+    font-size: 12px;
+    width: 200px;
+    border-radius: 14px;
+    left: 40px;
+    top: -13px;
             }
             .nb-text-menu{
                 position: relative;
@@ -1495,7 +1501,7 @@
         margin-top: 100px;
     }
     .services_section{
-        margin-top: ;
+        margin-top: 430px;
         position:relative;
         background-color: rd;
         
@@ -1682,13 +1688,14 @@
         }
             .services_text{
                 line-height: 15px;
-                width: auto;
+                
                 height: 10px;
                 font-size: 10px;
             }
             .grand_menu{
                 left: -10px;
                 width: 218px;
+                margin: 10px;
             }
             .grand_menu p{
                 font-weight: 900;
@@ -1855,7 +1862,7 @@
         }
         .section-box{
         position: relative;
-        top: 901px;
+        top: 950px;
 
         }
         .bas{
@@ -1892,22 +1899,26 @@
 
          }
           .box1 .legende{
-                left: 148px;
-            top: 380px;
+                left: 166px;
+            top: 340px;
             width: 148px;
          }
          .box1 .titreimg{
-                left: 108px;
+                left: 180px;
             width: 113px;
-            top: 330px;
+            top: 295px;
          }
          .box2{
-            
+            position: relative;
+            top: -30px;
          }
         .box3{
-            
+            position: relative;
+            top: -30px;
          }
         .box4{
+            position: relative;
+            top: 30px;
             height: auto;
             
          }
@@ -2010,7 +2021,7 @@
         margin-top: 100px;
     }
     .services_section{
-        margin-top: ;
+        margin-top:340px ;
         position:relative;
         background-color: rd;
         
@@ -2418,7 +2429,7 @@
             width: 148px;
          }
          .box1 .titreimg{
-                left: 108px;
+                left: 170px;
             width: 113px;
             top: 330px;
          }
@@ -2589,4 +2600,129 @@
                 font-size: 15px;
                 position: relative;
             }
+}
+
+
+@media (min-width: 1920px){
+    .navybar {
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 700px;
+    }
+    .banner_section{
+
+    position: absolute;
+    top: 353px;
+    margin: 20px;
+    left: auto;
+    right:140px;
+    width: 610px;
+
+    }  
+    .services_section{
+        position: relative;
+        margin-top: 900px;
+        width: 100%;
+        float: left;
+        padding-bottom: 90px;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .services_sectionn {
+    width: 100%;
+    height: 450px;
+    float: left;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 600px;
+    text-align: center;
+    background-color: rd;
+    }
+    .services_img{
+        width:500px;
+        height:290px;
+    }
+    .grand_menu p{
+        width: 480px;
+        padding: 25px;
+        top: -139px;
+        font-size: 20px;
+    }
+    .section3{
+        width: 1429px;
+    }
+    .box{
+        width: 693px;
+    }
+    .box1 .titreimg {
+    top: 300px;
+    left: 427px;
+    }
+    .box1 .legende{
+    top: 358px;
+    left: 398px;
+    }
+
+
+    .box4 .legend h3 {
+        margin: 4px;
+        left: 47px;
+        font-size: 18px;
+    }
+    .box5 p a img {
+    position: absolute;
+    top: 3px;
+    left: 667px;
+    }
+       .global_article {
+    margin-bottom: 780px;
+    position: relative;
+    top: 1000px;
+    }
+    .menu_serv {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 637px;
+    }
+    .menu_cgd{
+        top: 785px;
+    }
+    .box_cgd{
+        width: 418px;
+    }
+    .box4 .legend {
+    display: flex;
+    position: relative;
+    left: -6px;
+    }
+    .bas_about {
+    position: relative;
+    top: 1000px;
+}
+.bas_contact {
+    position: relative;
+    top: 900px;
+}
+.box p{
+    font-size: 15px;
+}
+.bas_article{
+    position: relative;
+    top: 330px;
+}
+.bas_csw{
+    position: relative;
+    top: 3000px;
+}
+
 }

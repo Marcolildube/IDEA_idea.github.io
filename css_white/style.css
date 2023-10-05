@@ -45,6 +45,7 @@ html {
 
 
 .background-video{
+    width: 100%;
     height: 100vh;
     margin: auto;
     object-fit: cover;
@@ -307,6 +308,9 @@ header_section {
         width: 146px;
     margin-bottom: 10px;
 }
+.banner_t_ex{
+    font-size: 65px;
+}
 
 .banner_text {
    
@@ -491,7 +495,7 @@ header_section {
     transform: scale(1.1);
 }
 .grand_menu p:hover{
-    font-size: 16px;
+    font-size: 15px;
 }
 .bm{
     position: relative;
@@ -520,6 +524,7 @@ header_section {
 }
 
 .grand_menu p {
+    font-size: 13px;
        height: auto;
     width: 281px;
     background-color: black;
@@ -939,7 +944,7 @@ header_section {
 }
 
 .subscribe_bt a {
-    width: 170px;
+    width: 222px;
     float: left;
     font-size: 18px;
     color: #2b2278;
@@ -948,6 +953,9 @@ header_section {
     text-align: center;
     font-weight: 500;
     text-transform: uppercase;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 .subscribe_bt a:hover {
@@ -1125,7 +1133,7 @@ h1 span:nth-child(1)
     position: absolute;
     width: 200px;
     top: 300px;
-    left: 200px;
+    left: 280px;
 }
 .box1 .legende{
     position: absolute;
@@ -1326,9 +1334,9 @@ h1 span:nth-child(1)
 
 }
 .box4 .legend{
-    display: flex;
-
-
+        display: flex;
+    position: relative;
+    left: 20px;
 }
 .box4 .legend h3{
     top: -10px;
@@ -1414,7 +1422,12 @@ h1 span:nth-child(1)
     font-size: 17px;
 }
 .box5 p:target {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
     display: block;
+    width: 100%;
+    margin-left: 0;
 }
 .box5:hover{
     cursor: pointer;
@@ -1453,8 +1466,10 @@ h1 span:nth-child(1)
     color: black;
     position: relative;
     top: px;
-    background-color: #25ebb5;
-    z-index: 1;
+    background-color: grey;
+    margin: 10px;
+    padding: 5px;
+    z-index: -1;
 }
 .scroll-div{
     width: 100%;
@@ -1475,6 +1490,9 @@ h1 span:nth-child(1)
     align-content: center;
 }
 .scroll-object a{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding:10px;
     text-align: left;
     width: 95%;
     height: auto;
@@ -1696,3 +1714,25 @@ h1 span:nth-child(1)
             top: 700px;
         }
 
+
+.reveal{
+    opacity: 0;
+    transform: translateX(30px);
+}
+.reveal-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+    
+}
+
+.reveal2{
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.reveal2-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+    
+}

@@ -35,12 +35,18 @@
 .sectionn2{
 	margin-top: 100px;
 }
-.services_section{
-	margin-top: 350px;
-	position:relative;
-	background-color: rd;
-	
-}
+  .services_sectionn {
+    width: 100%;
+    height: 450px;
+    float: left;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 400px;
+    text-align: center;
+    background-color: rd;
+    }
 .sectionn2 .titre{
 	animation-duration: 3s;
     animation-name: slidein;
